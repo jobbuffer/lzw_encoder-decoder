@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzw_encoder", "add_lib\add_lib.vcxproj", "{6F5A768D-BC2A-41E5-9E89-2F7CAE06735F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzw_decoder", "add_dec_lib\add_dec_lib.vcxproj", "{70DA794E-54A0-4DFE-83C3-972D8F4B64EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5A768D-BC2A-41E5-9E89-2F7CAE06735F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F5A768D-BC2A-41E5-9E89-2F7CAE06735F}.Debug|Win32.Build.0 = Debug|Win32
+		{6F5A768D-BC2A-41E5-9E89-2F7CAE06735F}.Release|Win32.ActiveCfg = Release|Win32
+		{6F5A768D-BC2A-41E5-9E89-2F7CAE06735F}.Release|Win32.Build.0 = Release|Win32
+		{70DA794E-54A0-4DFE-83C3-972D8F4B64EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70DA794E-54A0-4DFE-83C3-972D8F4B64EA}.Debug|Win32.Build.0 = Debug|Win32
+		{70DA794E-54A0-4DFE-83C3-972D8F4B64EA}.Release|Win32.ActiveCfg = Release|Win32
+		{70DA794E-54A0-4DFE-83C3-972D8F4B64EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
